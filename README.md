@@ -38,8 +38,8 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
  * ```Bleedable``` isimli bir interface tanımlayınız içerisinde ```bleed``` isimli bir method olmalı ve double değer dönmeli.
  * ```Poisonable``` isimli bir interface tanımlayınız içerisinde ```poison``` isimli bir method olmalı ve double değer dönmeli.
  * Monster sınıfından türüyen sınıfımız (Troll,Werewolf) bu iki arayüzüde ```implements``` etmeli.
- * Eğer yaratığın saldırdığında kanatma olasılığı varsa ```bleed``` metodu ```getDamage()*0.25``` değerini dönmeli. Eğer böyle bir olasılık yoksa 0 dğerini dönmeli.
- * Eğer yaratığın saldırdığında zehirleme olasılığı varsa ```poison``` metodu ```getDamage()*0.3``` değerini dönmeli. Eğer böyle bir olasılık yoksa 0 dğerini dönmeli.
+ * Eğer yaratığın saldırdığında kanatma olasılığı varsa ```bleed``` metodu ```getDamage()*0.25``` değerini dönmeli.
+ * Eğer yaratığın saldırdığında zehirleme olasılığı varsa ```poison``` metodu ```getDamage()*0.3``` değerini dönmeli.
  * Monster sınıfına  ```attack``` isimli bir method ekleyin. ```getDamage() + bleed() + poison()``` değerini dönmeli.
 
  
